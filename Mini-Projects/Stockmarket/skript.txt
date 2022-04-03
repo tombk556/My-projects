@@ -1,0 +1,41 @@
+In this application I like to extract all my financial stock data about my portfolio into a dashboard which will be updated each week 
+Content:
+- Stock information in euro about all my stocks I have
+- Graphical and tabluar visualize 
+- Email notification at the end of the week (friday at 5 pm)
+- Future prediction 
+
+
+Technical requirements:
+- no hard coded stuff
+- use OOP to define classes which:
+    - extract the data, store the data in a database 
+    - calcualte the current assets and net-worth
+    - visualize the data 
+    - ...
+
+
+File main.py:
+- enkripts all classes
+
+
+File data_extraction.py:
+- define a class which can be acess in the main file to extract the data from yahoo finance
+- make sure to add the following attributes:
+    - date of extraction - end - now 
+    - name of the stock - no ticker!
+
+- possible problems: ticker symbol on yahoo finance, currency for us stocks!
+
+File data_storage:
+- create an interactive database that stores the data from the stocks which are extracted from the file data_extraction
+- create for each stock a datatable in the database
+- create a menu to access the data and view them
+- delete the data if necessary ...
+-------------------------------
+FOR NOW!!! THIS IDEA IS ON HOLD!!!
+
+File data_storage:
+- create an excel file which stores each stock in a excel sheet
+
+
