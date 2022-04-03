@@ -10,6 +10,3 @@ app = dash.Dash(__name__)
 
 #-----------------------------------------------------
 # Import and clean data (importing csv into pandas)
-
-df = pd.read_csv('bees.csv')
-print(df)
